@@ -15,6 +15,5 @@ name = "si-unit-converter"
 path = "src/bin/main.rs"
 
 [dependencies]
-uom = "0.37"
 thiserror = "2"
 clap = { version = "4", features = ["derive"] }
