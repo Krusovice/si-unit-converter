@@ -1,0 +1,20 @@
+[package]
+name = "si-unit-converter"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "A type-safe SI unit converter library and CLI for engineering applications"
+repository = "https://github.com/krusovice/si-unit-converter"
+
+[lib]
+name = "si_unit_converter"
+path = "src/lib.rs"
+
+[[bin]]
+name = "si-unit-converter"
+path = "src/bin/main.rs"
+
+[dependencies]
+uom = "0.37"
+thiserror = "2"
+clap = { version = "4", features = ["derive"] }
