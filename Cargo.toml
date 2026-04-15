@@ -17,3 +17,5 @@ path = "src/bin/main.rs"
 [dependencies]
 thiserror = "2"
 clap = { version = "4", features = ["derive"] }
+log = "0.4"
+env_logger = "0.11"

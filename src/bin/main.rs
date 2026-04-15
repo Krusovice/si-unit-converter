@@ -1,6 +1,12 @@
 use std::io::{self, BufRead, Write};
+use si_unit_converter::parser;
 
 fn main() {
+    env_logger::init();
+
+    parser::tokenize("100 kN / 50 mm2");
+
+    /*
     println!("SI Unit Converter");
     println!("Type 'exit' to quit");
     println!();
@@ -25,4 +31,5 @@ fn main() {
 
         println!("Input: {}", input);
     }
+    */
 }
