@@ -1,3 +1,4 @@
+#[derive(Debug)]
 pub enum Operators {
     Plus,
     Minus,
@@ -6,6 +7,7 @@ pub enum Operators {
     Power,
 }
 
+#[derive(Debug)]
 pub enum Unit {
     // Force
     Newton,
